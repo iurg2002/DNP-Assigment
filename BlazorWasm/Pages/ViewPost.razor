@@ -1,0 +1,56 @@
+@page "/ViewPosts/{postId:int}"
+@using BlazorWasm.Services
+@using global::Shared.Models
+@inject IPostService postService
+@inject NavigationManager navMgr
+<h3>ViewPost</h3>
+
+@if (post != null)
+{
+    
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">@post.Title</h5>
+            <p class="card-text">@post.Body</p>
+            <div class="card-footer text-muted">
+                Writen by -@post.Author.Username
+            </div>
+        </div>
+    </div>
+    
+    
+}
+<a href="ViewPosts" class="btn btn-primary mt-5">Go Back</a>
+
+<label>@errorMessage</label>
+
+@code {
+
+    string errorMessage = "";
+    
+    [Parameter]
+    public int postId { get; set; }
+
+    private Post? post;
+
+
+    private async Task LoadPost()
+    {
+        try
+        {
+            post = await postService.GetPostById(postId);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errorMessage = e.Message;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadPost();
+    }
+    
+    
+}

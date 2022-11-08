@@ -1,0 +1,102 @@
+@page "/CreatePost"
+@using global::Shared.Dtos
+@using BlazorWasm.Services
+@using System.Security.Claims
+@attribute [Authorize]
+
+@inject IPostService postService
+@inject NavigationManager navMgr
+<h3>CreatePost</h3>
+<div class="card">
+    <div class="card-body">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Title</label>
+            <input @bind="title" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Cool Title"/>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Content</label>
+            <textarea @bind="body" class="form-control" id="exampleFormControlTextarea1" rows="3"/>
+        </div>
+        <button class="btn btn-dark" @onclick="CreatePostAsync">Create</button>
+    </div>
+</div>
+
+
+@* <div class="card"> *@
+@*     <div class="field"> *@
+@*         <label>Titile</label> *@
+@*         <input @bind="title" type="text"/> *@
+@*     </div> *@
+@*      *@
+@*     <div class="field"> *@
+@*         <label>Body</label> *@
+@*         <textarea rows="4" @bind="body" type="text"/> *@
+@*     </div> *@
+@*     <div class="field"> *@
+@*         <button class="btn" @onclick="CreatePostAsync">Create </button> *@
+@*     </div> *@
+@* </div> *@
+
+@if (!string.IsNullOrEmpty(errorLabel))
+{
+    <div class="field">
+        <label style="color: red">
+            @errorLabel
+        </label>
+    </div>
+}
+
+@code {
+    private string title;
+    private string body;
+    private string errorLabel;
+
+
+    private async Task CreatePostAsync()
+    {
+        errorLabel = "";
+        if (title == null || title.Trim() == "")
+        {
+            errorLabel = "Title is required";
+        }
+        else if (body == null || body.Trim() == "")
+        {
+            errorLabel = "Body is required";
+        }
+        else
+        {
+            PostCreationDto dto = new PostCreationDto(title, body, name);
+
+            try
+            {
+                await postService.CreatePostAsync(dto);
+                errorLabel = "Post Created";
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                errorLabel = $"Error: {e.Message}";
+            }
+        }
+    }
+
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+        isLoggedIn = user.Identity != null;
+
+        if (!isLoggedIn) return;
+
+        userClaims = user.Claims;
+        name = user.Identity!.Name;
+    }
+
+}

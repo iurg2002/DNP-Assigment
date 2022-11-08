@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "LaL8TE9WDEgkIbDtBPITJD3p5H4lscQ8MXqhpilpMjmFx0CoE4QXbnVUwg+Oo/G7lfaCA5M3b6C8ChIMXOzggg==",
+  "success": true,
+  "projectFilePath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/FileData.csproj",
+  "expectedPackageFiles": [
+    "/Users/gavriliuciurie/.nuget/packages/microsoft.aspnetcore.authorization/6.0.8/microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
+    "/Users/gavriliuciurie/.nuget/packages/microsoft.aspnetcore.metadata/6.0.8/microsoft.aspnetcore.metadata.6.0.8.nupkg.sha512",
+    "/Users/gavriliuciurie/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/gavriliuciurie/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "/Users/gavriliuciurie/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/gavriliuciurie/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/gavriliuciurie/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,69 @@
+@page "/ViewPosts"
+@using BlazorWasm.Services
+@using global::Shared.Models
+@inject IPostService postService
+@inject NavigationManager navMgr
+
+<h3>ViewPosts</h3>
+
+
+<button class="btn btn-dark" @onclick="LoadPosts">Refresh</button>
+
+@if (posts == null)
+{
+}
+else if (!posts.Any())
+{
+    <p>No Todos to display</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+   
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in posts)
+        {
+            <tr>
+                <td><a style="text-decoration: none;" class="text-black" href="@navMgr.Uri/@item.Id">@item.Title</a></td>
+                <td>@item.Author.Username</td>
+                
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@if (!string.IsNullOrEmpty(msg))
+{
+    <label style="color: red">@msg</label>
+}
+
+@code {
+    
+    private IEnumerable<Post>? posts;
+    private string msg = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadPosts();
+    }
+    
+    private async Task LoadPosts()
+    {
+        try
+        {
+            posts = await postService.GetPostsAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+    
+}
