@@ -14,4 +14,8 @@ public class Post
         Body = body;
         Author = author;
     }
+
+    public Post()
+    {
+    }
 }

@@ -43,3 +43,6 @@
 /Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/obj/Debug/net6.0/refint/FileData.dll
 /Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/obj/Debug/net6.0/FileData.pdb
 /Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/obj/Debug/net6.0/ref/FileData.dll
+/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/bin/Debug/net6.0/BlazorWasm.staticwebassets.runtime.json
+/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/bin/Debug/net6.0/BlazorWasm.dll
+/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/bin/Debug/net6.0/BlazorWasm.pdb

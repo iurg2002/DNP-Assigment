@@ -1,0 +1,1 @@
+/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/BlazorWasm/bin/Release/net6.0/publish/web.config

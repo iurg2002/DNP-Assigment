@@ -64,13 +64,13 @@ public class AuthService : IAuthService
             throw new ValidationException("Password cannot be null");
         }
         
-        IEnumerable<User> users = userDao.GetAll();
-        // check if username already exists in users list
-        User? existingUser = users.FirstOrDefault(u => u.Username.Equals(user.Username, StringComparison.OrdinalIgnoreCase));
-        if (existingUser != null)
-        {
-            throw new ValidationException("Username already exists");
-        }
+        // IEnumerable<User> users = userDao.GetAll();
+        // // check if username already exists in users list
+        // User? existingUser = users.FirstOrDefault(u => u.Username.Equals(user.Username, StringComparison.OrdinalIgnoreCase));
+        // if (existingUser != null)
+        // {
+        //     throw new ValidationException("Username already exists");
+        // }
         
     
         // Do more user info validation here

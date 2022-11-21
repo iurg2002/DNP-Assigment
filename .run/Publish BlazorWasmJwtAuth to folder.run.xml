@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Publish BlazorWasmJwtAuth to folder" type="DotNetFolderPublish" factoryName="Publish to folder" singleton="false">
+    <riderPublish configuration="Release" platform="Any CPU" runtime="Portable" self_contained="true" target_folder="$PROJECT_DIR$/BlazorWasm/bin/Release/net6.0/publish" target_framework="net6.0" uuid_high="6638883302308202050" uuid_low="-7888728010289485700" />
+    <method v="2" />
+  </configuration>
+</component>

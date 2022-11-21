@@ -1,4 +1,6 @@
-﻿namespace Shared.Models;
+﻿using System.Text.Json.Serialization;
+
+namespace Shared.Models;
 
 public class User
 {
@@ -8,4 +10,6 @@ public class User
     public string Name { get; set; }
     public string Role { get; set; }
     public int Age { get; set; }
+    [JsonIgnore]
+    public ICollection<Post> Posts { get; set; }
 }

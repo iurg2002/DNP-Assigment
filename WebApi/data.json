@@ -1,1 +1,226 @@
-{"Users":[{"Username":"trmo","Password":"onetwo3FOUR","Email":"trmo@via.dk","Name":"Troels Mortensen","Role":"Teacher","Age":36},{"Username":"jknr","Password":"password","Email":"trmo@via.dk","Name":"Jakob Rasmussen","Role":"Student","Age":34},{"Username":"iurie","Password":"password","Email":"315182@via.dk","Name":"Iurie Gavriliuc","Role":"Admin","Age":20},{"Username":"valode","Password":"1234","Email":"valode@mail.com","Name":"Valodik Dick","Role":"User","Age":23},{"Username":"1","Password":"1","Email":"1","Name":"1","Role":"User","Age":1},{"Username":"tolik","Password":"1234","Email":"tolik129@gmail.com","Name":"Tolik Tolean","Role":"User","Age":18},{"Username":"bob","Password":"1234","Email":"bob@gmail.com","Name":"bob","Role":"User","Age":18}],"Posts":[{"Id":1,"Title":"string","Body":"string","Author":{"Username":"valode","Password":"1234","Email":"valode@mail.com","Name":"Valodik Dick","Role":"User","Age":23}},{"Id":2,"Title":"1","Body":"1","Author":{"Username":"1","Password":"1","Email":"1","Name":"1","Role":"User","Age":1}},{"Id":3,"Title":"2","Body":"2g7y","Author":{"Username":"1","Password":"1","Email":"1","Name":"1","Role":"User","Age":1}},{"Id":4,"Title":"ITS WORKING","Body":"WAAAWWW","Author":{"Username":"1","Password":"1","Email":"1","Name":"1","Role":"User","Age":1}},{"Id":5,"Title":"Hello","Body":"qwerty","Author":{"Username":"valode","Password":"1234","Email":"valode@mail.com","Name":"Valodik Dick","Role":"User","Age":23}},{"Id":6,"Title":"Koalas","Body":"The koala or, inaccurately, koala bear is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae and its closest living relatives are the wombats.","Author":{"Username":"iurie","Password":"password","Email":"315182@via.dk","Name":"Iurie Gavriliuc","Role":"Admin","Age":20}},{"Id":7,"Title":"Chihuahua","Body":"The Chihuahua or Spanish: Chihuahue\u00F1o is a Mexican breed of toy dog. It is named for the Mexican state of Chihuahua and is among the smallest of all dog breeds. It is usually kept as a companion animal or for showing.","Author":{"Username":"tolik","Password":"1234","Email":"tolik129@gmail.com","Name":"Tolik Tolean","Role":"User","Age":18}},{"Id":8,"Title":"I regret about cihuahua post","Body":"Yes that is true","Author":{"Username":"tolik","Password":"1234","Email":"tolik129@gmail.com","Name":"Tolik Tolean","Role":"User","Age":18}},{"Id":9,"Title":"COol title","Body":"ghello","Author":{"Username":"tolik","Password":"1234","Email":"tolik129@gmail.com","Name":"Tolik Tolean","Role":"User","Age":18}},{"Id":10,"Title":"iurie post","Body":"made by iurie","Author":{"Username":"iurie","Password":"password","Email":"315182@via.dk","Name":"Iurie Gavriliuc","Role":"Admin","Age":20}},{"Id":11,"Title":"made by bob","Body":"bobik","Author":{"Username":"bob","Password":"1234","Email":"bob@gmail.com","Name":"bob","Role":"User","Age":18}}]}
+{
+  "Users": [
+    {
+      "Username": "trmo",
+      "Password": "onetwo3FOUR",
+      "Email": "trmo@via.dk",
+      "Name": "Troels Mortensen",
+      "Role": "Teacher",
+      "Age": 36
+    },
+    {
+      "Username": "jknr",
+      "Password": "password",
+      "Email": "trmo@via.dk",
+      "Name": "Jakob Rasmussen",
+      "Role": "Student",
+      "Age": 34
+    },
+    {
+      "Username": "iurie",
+      "Password": "password",
+      "Email": "315182@via.dk",
+      "Name": "Iurie Gavriliuc",
+      "Role": "Admin",
+      "Age": 20
+    },
+    {
+      "Username": "valode",
+      "Password": "1234",
+      "Email": "valode@mail.com",
+      "Name": "Valodik Dick",
+      "Role": "User",
+      "Age": 23
+    },
+    {
+      "Username": "1",
+      "Password": "1",
+      "Email": "1",
+      "Name": "1",
+      "Role": "User",
+      "Age": 1
+    },
+    {
+      "Username": "tolik",
+      "Password": "1234",
+      "Email": "tolik129@gmail.com",
+      "Name": "Tolik Tolean",
+      "Role": "User",
+      "Age": 18
+    },
+    {
+      "Username": "bob",
+      "Password": "1234",
+      "Email": "bob@gmail.com",
+      "Name": "bob",
+      "Role": "User",
+      "Age": 18
+    },
+    {
+      "Username": "dragos",
+      "Password": "1234",
+      "Email": "1234@gmail.com",
+      "Name": "Dragos",
+      "Role": "User",
+      "Age": 17
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Title": "string",
+      "Body": "string",
+      "Author": {
+        "Username": "valode",
+        "Password": "1234",
+        "Email": "valode@mail.com",
+        "Name": "Valodik Dick",
+        "Role": "User",
+        "Age": 23
+      }
+    },
+    {
+      "Id": 2,
+      "Title": "1",
+      "Body": "1",
+      "Author": {
+        "Username": "1",
+        "Password": "1",
+        "Email": "1",
+        "Name": "1",
+        "Role": "User",
+        "Age": 1
+      }
+    },
+    {
+      "Id": 3,
+      "Title": "2",
+      "Body": "2g7y",
+      "Author": {
+        "Username": "1",
+        "Password": "1",
+        "Email": "1",
+        "Name": "1",
+        "Role": "User",
+        "Age": 1
+      }
+    },
+    {
+      "Id": 4,
+      "Title": "ITS WORKING",
+      "Body": "WAAAWWW",
+      "Author": {
+        "Username": "1",
+        "Password": "1",
+        "Email": "1",
+        "Name": "1",
+        "Role": "User",
+        "Age": 1
+      }
+    },
+    {
+      "Id": 5,
+      "Title": "Hello",
+      "Body": "qwerty",
+      "Author": {
+        "Username": "valode",
+        "Password": "1234",
+        "Email": "valode@mail.com",
+        "Name": "Valodik Dick",
+        "Role": "User",
+        "Age": 23
+      }
+    },
+    {
+      "Id": 6,
+      "Title": "Koalas",
+      "Body": "The koala or, inaccurately, koala bear is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae and its closest living relatives are the wombats.",
+      "Author": {
+        "Username": "iurie",
+        "Password": "password",
+        "Email": "315182@via.dk",
+        "Name": "Iurie Gavriliuc",
+        "Role": "Admin",
+        "Age": 20
+      }
+    },
+    {
+      "Id": 7,
+      "Title": "Chihuahua",
+      "Body": "The Chihuahua or Spanish: Chihuahue\u00F1o is a Mexican breed of toy dog. It is named for the Mexican state of Chihuahua and is among the smallest of all dog breeds. It is usually kept as a companion animal or for showing.",
+      "Author": {
+        "Username": "tolik",
+        "Password": "1234",
+        "Email": "tolik129@gmail.com",
+        "Name": "Tolik Tolean",
+        "Role": "User",
+        "Age": 18
+      }
+    },
+    {
+      "Id": 8,
+      "Title": "I regret about cihuahua post",
+      "Body": "Yes that is true",
+      "Author": {
+        "Username": "tolik",
+        "Password": "1234",
+        "Email": "tolik129@gmail.com",
+        "Name": "Tolik Tolean",
+        "Role": "User",
+        "Age": 18
+      }
+    },
+    {
+      "Id": 9,
+      "Title": "COol title",
+      "Body": "ghello",
+      "Author": {
+        "Username": "tolik",
+        "Password": "1234",
+        "Email": "tolik129@gmail.com",
+        "Name": "Tolik Tolean",
+        "Role": "User",
+        "Age": 18
+      }
+    },
+    {
+      "Id": 10,
+      "Title": "iurie post",
+      "Body": "made by iurie",
+      "Author": {
+        "Username": "iurie",
+        "Password": "password",
+        "Email": "315182@via.dk",
+        "Name": "Iurie Gavriliuc",
+        "Role": "Admin",
+        "Age": 20
+      }
+    },
+    {
+      "Id": 11,
+      "Title": "made by bob",
+      "Body": "bobik",
+      "Author": {
+        "Username": "bob",
+        "Password": "1234",
+        "Email": "bob@gmail.com",
+        "Name": "bob",
+        "Role": "User",
+        "Age": 18
+      }
+    },
+    {
+      "Id": 12,
+      "Title": "Chihuahua",
+      "Body": "asdfghjkl;",
+      "Author": {
+        "Username": "dragos",
+        "Password": "1234",
+        "Email": "1234@gmail.com",
+        "Name": "Dragos",
+        "Role": "User",
+        "Age": 17
+      }
+    }
+  ]
+}

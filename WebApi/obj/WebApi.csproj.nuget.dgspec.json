@@ -4,6 +4,162 @@
     "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/WebApi/WebApi.csproj": {}
   },
   "projects": {
+    "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/BlazorWasm/BlazorWasm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/BlazorWasm/BlazorWasm.csproj",
+        "projectName": "BlazorWasm",
+        "projectPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/BlazorWasm/BlazorWasm.csproj",
+        "packagesPath": "/Users/gavriliuciurie/.nuget/packages/",
+        "outputPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/BlazorWasm/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gavriliuciurie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/Shared/Shared.csproj": {
+                "projectPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/EfcData/EfcData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/EfcData/EfcData.csproj",
+        "projectName": "EfcData",
+        "projectPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/EfcData/EfcData.csproj",
+        "packagesPath": "/Users/gavriliuciurie/.nuget/packages/",
+        "outputPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/EfcData/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gavriliuciurie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/Shared/Shared.csproj": {
+                "projectPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/FileData.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,6 +182,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/BlazorWasm/BlazorWasm.csproj": {
+                "projectPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/BlazorWasm/BlazorWasm.csproj"
+              },
               "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/Shared/Shared.csproj": {
                 "projectPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/Shared/Shared.csproj"
               }
@@ -57,7 +216,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -116,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -142,6 +301,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/EfcData/EfcData.csproj": {
+                "projectPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/EfcData/EfcData.csproj"
+              },
               "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/FileData.csproj": {
                 "projectPath": "/Users/gavriliuciurie/Programare/DNP/Assigment/DNP-Assigment/FileData/FileData.csproj"
               },
@@ -193,7 +355,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
