@@ -115,7 +115,8 @@
                 Email = email,
                 Name = name,
                 Age = int.Parse(age),
-                Role = "User"
+                Role = "User",
+                Posts = new List<Post>()
             };
             await authService.RegisterAsync(user);
             navMgr.NavigateTo("/Login");

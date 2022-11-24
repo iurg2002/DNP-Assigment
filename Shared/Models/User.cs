@@ -11,5 +11,5 @@ public class User
     public string Role { get; set; }
     public int Age { get; set; }
     [JsonIgnore]
-    public ICollection<Post> Posts { get; set; }
+    public ICollection<Post>? Posts { get; set; }
 }
